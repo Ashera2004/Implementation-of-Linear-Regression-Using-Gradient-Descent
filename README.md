@@ -60,24 +60,29 @@ def linear_regression(x1, y, learning_rate=0.01, num_iters=1000):
 data = pd.read_csv('50_Startups.csv', header=0)  
 print(data.head())
 
-#Assuming the last column is your target variable 'y' and the preceding column 
 X= (data.iloc[1:, :-2].values)
+print("Values of Independent Variables(X):")
+print()
 print(X)
 
 X1=X.astype(float)
-
 scaler_X = StandardScaler()
 Y = (data.iloc[1:,-1].values).reshape(-1,1)
+print("Values of Dependent Variables(Y):")
+print()
 print(Y)
 
 X1_Scaled = scaler_X.fit_transform(X1)
 scaler_Y = StandardScaler()
 Y1_Scaled = scaler_Y.fit_transform(Y)
-
+print("X1_Scaled:")
+print()
 print(X1_Scaled)
+print()
+print("Y1_Scaled:")
+print()
 print(Y1_Scaled)
 
-#learn model parameters
 theta = linear_regression(X1_Scaled, Y1_Scaled)
 
 #predict target value for a new data point
@@ -86,7 +91,6 @@ new_Scaled = scaler_X.transform(new_data)
 predictions = np.c_[np.ones(1), new_Scaled].dot(theta)
 pre = scaler_Y.inverse_transform(predictions)
 print(f"Prediction value:{pre}")
-
 
 Developed by: A S Siddarth
 RegisterNumber: 212224040316 
