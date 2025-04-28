@@ -99,6 +99,8 @@ RegisterNumber: 212224040316
 
 ## Output:
 
+Data Information
+
 ![exp3_out1](https://github.com/user-attachments/assets/048fbbbf-bb15-4933-8b14-8c3692389b53)
 
 ![exp3_out2](https://github.com/user-attachments/assets/04d81fdd-985f-4ef9-8414-86f0062713c8)
