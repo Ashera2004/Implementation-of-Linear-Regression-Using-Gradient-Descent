@@ -99,10 +99,17 @@ RegisterNumber: 212224040316
 
 ## Output:
 
-![Screenshot 2025-03-30 174004](https://github.com/user-attachments/assets/d7638233-856c-4626-b062-e9df1b561efc)
+![exp3_out1](https://github.com/user-attachments/assets/048fbbbf-bb15-4933-8b14-8c3692389b53)
 
+![exp3_out2](https://github.com/user-attachments/assets/04d81fdd-985f-4ef9-8414-86f0062713c8)
 
-![Screenshot 2025-03-30 174826](https://github.com/user-attachments/assets/61680617-7c0e-45e3-983b-e381811e2e11)
+![exp3_out3](https://github.com/user-attachments/assets/a3368cc4-1fd2-4bb6-93a2-1225192e4012)
+
+![exp3_out4](https://github.com/user-attachments/assets/9ff69a49-917a-4bd1-8bf4-582d69929620)
+
+![exp3_out5](https://github.com/user-attachments/assets/1a9db2bc-db5e-490b-aa7e-ff3ae4abd5fc)
+
+![exp3_out6](https://github.com/user-attachments/assets/a5facab9-5b90-4acd-88ee-2330b339e473)
 
 
 ## Result:
