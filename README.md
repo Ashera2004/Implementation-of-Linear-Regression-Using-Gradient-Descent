@@ -71,8 +71,8 @@ predictions = np.c_[np.ones(1), new_Scaled].dot(theta)
 pre = scaler_Y.inverse_transform(predictions)
 print(f"Prediction value:{pre}")
 
-Developed by: A S Siddarth
-RegisterNumber: 212224040316 
+# Developed by: A S Siddarth
+# Register Number: 212224040316 
 
 ```
 
